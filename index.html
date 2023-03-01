@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <script src="https://kit.fontawesome.com/a1638a3d51.js" crossorigin="anonymous"></script>
+  <title>EduPlay</title>
+</head>
+<body>
+  <header class="header">
+    <!--barra de navegacion-->
+    <nav class="navbar fixed">
+      <a class="navbar-logo" href=""><img src="./assets/img/logo.png" alt="logo EduPlay"></a>
+      <div class="container-nav">
+        <ul class="navbar-item">
+          <li > <a class="navbar-link" href="#cursos"> Cursos</a> </li>
+          <li > <a class="navbar-link" href="./enlaces/precios.html"> Precios</a> </li>
+          <li><a class="navbar-link" id="registrar" href="#">Registrate</a> </li>
+          <li> <a class="navbar-link" id="inicio"  href="#">Iniciar sesión</a></li>
+      </ul>
+    </div>
+    </nav>
+  </header>
+  <!--parte principal pagina HERO-->
+  <section class="hero">
+    <div class="flex-container">
+      <div class="principal">
+        <h1>Aprende multimedia con los expertos</h1>
+        <p >Aprende a dominar las principales herramientas de diseño multimedia para tus proyectos.</p>
+        <h2>¡Tu mejor aventura comienza aqui!</h2>
+        <button id="probar" class="btn btn-w">Probar gratis</button>
+      </div>
+      <div class="principal" >
+        <img  src="./assets/img/MujerMorena.png" alt="alegre joven en suéter amarillo apunta a un lado en el espacio">
+      </div>
+    </div>
+    <div class="ola" style="height: 250px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 108%; width: 100%;"><path d="M-0.00,49.85 C150.00,149.60 349.20,-49.85 500.00,49.85 L500.00,149.60 L-0.00,149.60 Z" style="stroke: none; fill: rgb(237, 239, 240);"></path></svg></div>
+    </div>
+</section>
+  <!--claves-text de cursos-->
+  <section  class="section">
+    <h1>¿Por qué hacer parte de esta comunidad?</h1><br><br>
+    <div class="flex-container ">
+      <div class="claves-fondo">
+        <img  src="./assets/svg/verVideo.svg" alt="ilustracion de persona viendo video">
+      </div>
+      <div class="claves-text">
+        <h2>Serás el primero en recibir nuestros próximos videos.</h2>
+       <p class="curso">Si estás suscrito recibirás cómodamente en tu correo electrónico nuestros nuevos videos de tu interés, tendrás un servicio de entrega totalmente viertual, en la comodidad de tu bandeja de entrada y siempre disponibles para que los consultes cuando gustes.</p>
+      </div>
+    </div>
+    <div class="flex-container">
+      <div class="claves-text">
+        <h2>Prueba gratuita por 7 dias</h2>
+        <p class="curso">Registrarte con nosotros será gratis por los próximos 7 dias, podrás disfrutas de todos nuestros cursos de manera gratuita. </p>
+      </div>
+      <div class="claves-fondo" >
+        <img src="./assets/svg/pruebaGratis.svg" alt="ilustracion de persona con computador">
+      </div>
+    </div>
+    <div class="flex-container">
+      <div class="claves-fondo">
+        <img  src="./assets/svg/tutorias.svg" alt="ilustracion de tutorias online">
+      </div>
+      <div class="claves-text" >
+        <p class="curso">Aprenderás, Eduplay te ofrece nuevos conocimientos de manera interactiva de como usar las diferentes herramientas de multimedia para la creación de fotos, audivisonales, edición de videos, etc. </p>
+        <h2>¡No te lo puedes perder!</h2>
+      </div>
+    </div>
+    <div class="flex-container">
+      <div class="claves-text">
+        <h2>¡Aprende desde cualquier dispositivo electrónico!</h2>
+        <p class="curso">Eduplay es un sitio web adaptable, gracias al diseño responsivo, donde los contenidos de la página web se amoldan perfectamente a los diferentes dispositivos, como PCs, portátiles, tablets o smartphones, consiguiendo de esta forma que nuestros suscriptores obtengan la mejor experiencia posible desde cualquier disposivo electrónico.</p>
+      </div>
+      <div class="claves-fondo" >
+        <img  src="./assets/svg/electronico.svg" alt="ilustracion dispositivo electronico">
+      </div>
+    </div>
+  </section>
+<!--suscribirse -->
+<section class="section1">
+  <div class="flex-container">
+    <div class="sub">
+      <h2>Experimente una nueva forma flexible de aprender</h2>
+      <h2>Entérate de todas las novedades en educación.</h2>
+    </div>
+    <div >
+      <form class="form" action="">
+      <label for="email">Email:</label>
+      <input  
+      type="email" 
+      id="email" 
+      size="30" required>
+      <button id="suscribase" class="btn btn-p" >Suscribete</button>
+    </form>
+    </div>
+  </div>
+</section>
+<!--Cursos-->
+<section id="cursos" class="section2">
+  <h1>¡Cursos especializados cada mes!</h1>
+  <p>Aprende y desarrolla las habilidades que necesitas para potenciar tu profesión, ¡toma por 7 dias  los curso que tú elijas sin costo!</p>
+  <div class="cards">
+    <article class="card transition">
+      <h2>Adobe Photoshop avanzado</h2>
+      <video width="350" height="250" controls>
+        <source class="video"  src="./assets/video/edicion.mp4" type="video/mp4">
+      </video>
+      <div class="content">
+        <p>Aprende las técnicas imprescindibles y mejora tus creaciones </p>
+        <button class="btn btn-w">Ver mas</button>
+      </div>
+    </article>
+    <article class="card transition">
+      <h2>Calidad en tus fotos</h2>
+      <video class="video" width="350" height="300" controls>
+        <source  class="video" src="./assets/video/video2.mp4" type="video/mp4">
+      </video>
+      <div class="content">
+        <p>Con solo tu movil aprende como tomar fotos de calidad</p>
+        <button class="btn btn-w">Ver mas</button>
+      </div>
+    </article>
+    <article class="card transition">
+      <h2>Plataformas editoras de contenido digital</h2>
+      <video class="video" width="300" height="250" controls>
+        <source class="video"   src="./assets/video/video3.mp4" type="video/mp4">
+      </video>
+      <div class="content">
+        <p>Enterate de las mejores páginas web y Plataformas para la edición de contenido digital</p>
+        <button class="btn btn-w">Ver mas</button>
+      </div>
+    </article>
+  </div>
+  <div class="cards">
+    <article class="card transition">
+      <h2>Edición multivideo</h2>
+      <video width="300" height="250" controls>
+        <source  class="video" src="./assets/video/video4.mp4" type="video/mp4">
+      </video>
+      <div class="content">
+        <p>Estudia aqui como empezar a editar multiples videos desde una sola vista </p>
+        <button class="btn btn-w">Ver mas</button>
+      </div>
+    </article>
+    <article class="card transition">
+      <h2>Adapta tu cámara profesional</h2>
+      <video class="video" width="300" height="250" controls>
+        <source class="video"  src="./assets/video/video5.mp4" type="video/mp4">
+      </video>
+      <div class="content">
+        <p>Aprende como configurar y adaptar tu cámara profesional para diferentes tomas y ediciones</p>
+        <button class="btn btn-w">Ver mas</button>
+      </div>
+    </article>
+    <article class="card transition">
+      <h2>Verdadero origen de la edicion y creación multimedia</h2>
+      <video class="video" width="300" height="250" controls>
+        <source   src="./assets/video/video6.mp4" type="video/mp4">
+      </video>
+      <div class="content">
+        <p>Enterate del verdadero origen de la edición y creación multimedia </p>
+        <button class="btn btn-w">Ver mas</button>
+      </div>
+    </article>
+  </div>
+</section>
+<!--testimonios-->
+<section class="section3">
+  <h1>¡Somos tu mejor opción!  No lo decimos nosotros, lo dicen ellos</h1>
+  <div class="flex-container p-50">
+    <div class="testimonio">
+    <img src="./assets/img/testimonio1.jpg" alt="mujer con brazos cruzados">
+    <p>"Confío Eduplay  porque sé que hay una dedicación para que el contenido que se le da a los estudiantes sea el mejor y hay una comunidad que simpre esta dispuesta a colaborar"</p>
+      <h3>Lauren Marquez</h3>
+    </div>
+    <div class="testimonio" >
+        <img  src="./assets/img/tertimonio2.jpg" alt="hombre">
+        <p>"Eduplay es una buena plataforma para empezar a crear, porque es fácil de usar y brinda algunas ventajas en cuanto a sus planes flexibles, tuve la oportunidad de probar solo un mes y realmente me gusto, he apredido mucho con los diferentes retos que haces mediante el apredizaje"</p>
+        <h3>Luis Marquez</h3>
+    </div>
+    <div class="testimonio" >
+      <img  src="./assets/img/testimonio3.jpg" alt="mujer afro">
+      <p>"Soy creadora de contenio y publicista y gracias a Eduplay he podido  fortalecer mis habiliadades en la edicion y creacion de plucidad de manera profesional, realmente los instructuros dan un muy buen acompañamiento"</p>
+      <h3>Laura Perez</h3>
+    </div>
+  </div>
+</section>
+<!--formulario-->
+<section class="section4">
+  <h1>¡Más información!</h1>
+  <div class="flex-container">
+    <div class="formulario">
+      <img src="./assets/img/mujerSeñalando.png" alt="mujer señalando">
+    </div>
+    <div class="formulario-b" >
+      <form id="form" class="form">
+        <h3>Ingresa tus datos y te asesoraremos con nuestras mejores ofertas en Premium.</h3>
+        <label for="nombre">Nombres:</label>
+        <input
+        class="control"
+        id="nombre"
+        name="nombre"
+        placeholder="Ingrese nombre"
+        type="text"                    
+
+        />
+        <label for="apellido">Apellidos:</label>
+        <input
+        class="control"
+        id="apellido"
+        name="apellido"
+        placeholder="Ingrese apellido"
+        type="text"                    
+
+        />
+        <label for="mail">Correo Electrónico:</label>
+        <input 
+        class="control"
+        type="email" 
+        id="mail"
+        placeholder="Ingrese correo">
+
+        <label for="telefono">Telefono:</label>
+        <input
+        class="control"
+        type="number" 
+        id="telefono"
+        placeholder="Ingrese Telefono" 
+        required/>
+        <button class="btn btn-contacto" type="submit" id="btn">Conversemos</button><br><br>
+      </form>  
+    </div> 
+</section>
+<!--modal registrarse-->
+<section class="modalRegistro ">
+  <div class="modalContainer">
+    <img class="closeRegistro" src="./assets/img/clear.png" alt="cerrar">
+      <img src="./assets/svg/undraw_login_re_4vu2.svg" class="modalImg">
+      <h1 class="modalTitle">EduPlay</h1>
+      <p class="modalParaf">Aprende con los mejores profesionales y forma parte de esta gran comunidad.</p>
+      <form  class="form" id="form2">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombres">
+          <label for="correo">E-mail:</label>
+          <input type="email" id="correoR">
+          <label for="clave">Contraseña:</label>
+          <input type="password" id="clave">
+      </form>
+      <button class="btn btnModal" id="cerrar">Registrate</button>
+      <p class="parrafo"><br>
+          ¿Ya tienes cuenta? <a href="">Inicia sesión aquí</a>
+      </p>
+  </div>
+</section>
+
+<!--modal inicio de sesion-->
+<section class="modalInicio ">
+  <div class="modalContainer">
+    <img class="closeInicio" src="./assets/img/clear.png" alt="cerrar">
+      <img src="./assets/svg/undraw_login_re_4vu2.svg" class="modalImg">
+        <h1>EduPlay</h1>
+        <p>  Aprende con los mejores profesionales y forma parte de esta gran comunidad.</p>
+        <form class="form" id="form3">
+            <label for="correo">E-mail:</label>
+            <input type="email" id="correo">
+            <label for="clave">Contraseña:</label>
+            <input type="password" id="claveI">
+        </form>
+        <button class="btn btnModal" id="cerrar_registrar">Iniciar sesión</button>
+        <p><a href="">¿Olvidaste tu contraseña?</a><br><br></p>
+        <p>¿Aun no tienes cuenta en EduPlay?</p>
+        <button id="regiQui" class="btn btnModal">Registrate aquí</button>
+  </div>
+</section>
+
+<!--consumo de api Unsplash-->
+<section>
+  <div class="flex-container api">
+    <h1>Con nuestro curso de Adobe Photoshop avanzado puedes aprender a  realizar efectos fotográficos como estos </h1>
+  <div class=" btn-imagenes ">
+    <button class=" btn-w btn getButton">Galeria</button>
+  </div>
+  <div class="imagenes">
+    <img class="galeria">
+  </div>
+</div>
+</section>
+<!--footer-->
+<footer>
+  <div class="flex-container">
+    <div class="piePagina">
+    <img src="./assets/img/logo.png" alt="logo EduPlay">
+    <p>EduPlay es una plataforma de aprendizaje muy fácil de usar, diseñada para potenciar el crecimiento profesional </p>
+      
+    </div>
+    <div class="piePagina" >
+      <h3>CONSULTA AQUÍ</h3>
+      <a href="">Política de privacidad de datos personales</a>
+      <a href="">Políticas de cancelación y devolución</a><br><br>
+      <h4>EduPlay © 2023 | Todos los derechos reservados.</h4>
+    </div>
+    <div class="piePagina" >
+      <h3>CONTÁCTANOS</h3>
+      <h4> WhatsApp: 302 290 7673</h4>
+      <h4> Cel: (57)302  290 7673</h4>
+      <h4> Email:atencionalclientel@eduplay.edu.co</h4>
+      <h3>Encuéntranos en:</h3>
+      <div class="redSocial">
+        <a href="#" class="fa fa-facebook fa-1x"></a>
+        <a href="#" class="fa fa-instagram fa-1x"></a>
+        <a href="#" class="fa fa-twitter fa-1x" ></a>
+        <a href="#" class="fa fa-youtube fa-1x"></a>
+      </div>
+    </div>
+  </div>
+</footer>
+<script type="module" src="./scripts/formulario.js"></script>
+<script src="./scripts/api.js"></script>
+<script src="./scripts/main.js"></script>
+</body>
+</html>
